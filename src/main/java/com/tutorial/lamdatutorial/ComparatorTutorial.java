@@ -24,7 +24,6 @@ public class ComparatorTutorial {
 
 		// Just single line with lamda
 		apples.sort((Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight()));
-
 	}
 
 }
