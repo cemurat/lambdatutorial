@@ -1,21 +1,23 @@
 package com.tutorial.lamdatutorial.entities;
 
+import java.awt.Color;
+
 public class Apple {
 
-	private String colour;
+	private Color color;
 	private Integer weight;
 
-	public Apple(String colour, Integer weight) {
-		this.colour = colour;
+	public Apple(Color color, Integer weight) {
+		this.color = color;
 		this.weight = weight;
 	}
 
-	public String getColour() {
-		return colour;
+	public Color getColor() {
+		return color;
 	}
 
-	public void setColour(String colour) {
-		this.colour = colour;
+	public void setColor(Color color) {
+		this.color = color;
 	}
 
 	public Integer getWeight() {
@@ -28,7 +30,7 @@ public class Apple {
 
 	@Override
 	public String toString() {
-		return "Apple: colour= " + colour + ",weight= " + weight;
+		return "Apple: color= " + color + ",weight= " + weight;
 	}
 
 }
