@@ -9,7 +9,7 @@ public class FunctionTutorial {
 
 	public static void main(String[] args) {
 
-		List<String> stringList = Arrays.asList("cemurat", "Lamda", "");
+		List<String> stringList = Arrays.asList("cemurat", "Lambda", "");
 		List<Integer> stringLengthList = map(stringList, (String s) -> s.length());
 		for (Integer integer : stringLengthList) {
 

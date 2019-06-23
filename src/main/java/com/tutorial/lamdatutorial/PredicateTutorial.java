@@ -9,7 +9,7 @@ public class PredicateTutorial {
 
 	public static void main(String[] args) {
 
-		List<String> stringList = Arrays.asList("Murat", "", "Lamda", "");
+		List<String> stringList = Arrays.asList("Murat", "", "Lambda", "");
 
 		List<String> nonEmptyStringList = filter(stringList, (String s) -> (!s.isEmpty()));
 
